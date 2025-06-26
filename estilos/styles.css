@@ -201,10 +201,11 @@ section {
 
 section h2 {
   color: #ff5722;
-  font-size: 1.3rem;
+  font-size: 1.5rem !important;
   border-bottom: 2px solid #ff5722;
   padding-bottom: 8px;
   margin-bottom: 15px;
+  font-family: "Bungee", sans-serif;
 }
 
 /* Grid de itens */
@@ -212,6 +213,10 @@ section h2 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 15px;
+}
+.item-desc{
+  font-weight: 600;
+   font-family: "Rubik", sans-serif;
 }
 
 /* Estilo dos itens individuais */
@@ -234,9 +239,12 @@ section h2 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+
 }
 
 .item-name {
+  font-family: "Bungee", sans-serif;
+  font-size: 1.2rem;
   font-weight: 600;
   flex: 1;
   margin-right: 10px;
