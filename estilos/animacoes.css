@@ -185,3 +185,9 @@
 .corDoshamburguerMaiores{
   color: red;
 }
+
+.molhoPersonalizado{
+  box-shadow: 0px 6px 20px orange;
+  border-radius: 8px;
+  padding: 3px;
+}
